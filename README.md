@@ -12,3 +12,10 @@ The factor field is the minute value of the time stamp raised to the third power
 ## DynamoDB
 Below is an image of the data collected in Dynamo. The polled data is available in csv format as DP2-Records-Time.csv
 ![DynamoDB image](https://raw.githubusercontent.com/dknorr/data-project-2/main/images/dynamo.png?token=AE3BIKILQ6N2YFH53AVT5IDATRTVK)
+
+## Instruction
+The Docker image is available [here](https://hub.docker.com/repository/docker/dknorr1/dp2). It expects the following enviroment variables to be passed in when run. Additioanlly, be sure to have created a DynamoDB table called 'DP2-Records-Time'. You may need to go edit the Lambda function created by Chalice and edit its execution role such that it has DynamoDB write permissions.
+
+* AWS_ACCESS_KEY_ID=(lambda and dynamo permissions)
+* AWS_SECRET_ACCESS_KEY=(lambda and dynamo permissions)
+* AWS_DEFAULT_REGION=
