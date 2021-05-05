@@ -9,4 +9,4 @@ The factor field is the minute value of the time stamp raised to the third power
 
 ## DynamoDB
 Below is an image of the data collected in Dynamo.
-![Diagram for data project original plan](https://raw.githubusercontent.com/dknorr/data-project-1/main/images/dp1-original-plan.png?token=AE3BIKNPU2CBAIDODAHHZJTAQCMBC)
+![DynamoDB image](https://raw.githubusercontent.com/dknorr/data-project-2/main/images/dynamo.png?token=AE3BIKILQ6N2YFH53AVT5IDATRTVK)
