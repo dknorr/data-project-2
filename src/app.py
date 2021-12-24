@@ -23,3 +23,5 @@ def cron_tab(event):
     dynamodb = boto3.resource('dynamodb')
     table = dynamodb.Table('DP2-Records-Time')
     table.put_item(Item=item)
+
+    
