@@ -2,7 +2,7 @@
 Submission for DS3002 Data Project 2: Data Ingestion and Analysis
 
 ## Some changes
-It's better now!
+It's better now! And now this.
 
 ## Approach
 For this project I used a container inside which I built a Chalice application which deployed a Lambda function in AWS. This Lambda function ran as a cron job powered by a Cloudwatch event timer. Once a minute, it made a request to the provided API and added the response to a table in DynamoDB. 
